@@ -1,0 +1,40 @@
+.sbinput{
+    width: 320px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;    
+    padding-left: 15px;    
+    font-family: 'Times New Roman', Times, serif;   
+    font-size: 22px;
+    background-color: #e3e1e1;
+    border-radius: 3%;
+}
+
+.sbBtn {
+    width: 120px;
+    height: 40px;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 26px;
+    margin-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.7s ease;    
+   
+}
+
+.sbBtn:hover{
+    transform: translateY(2px);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.3);
+    border-radius: 3%;
+    background-color: #638e4c;
+    color: #e3e1e1;   
+}
+
+.SearchBar {
+    display: flex;
+    align-items: center;    
+}
+
+

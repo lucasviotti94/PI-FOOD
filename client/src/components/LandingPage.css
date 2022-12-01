@@ -1,0 +1,60 @@
+.landingDiv {    
+    position: relative;
+    opacity: 0.90;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../assets/fondo-home.jpg);
+    background-color: #d4d5d2;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingCard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-top: 1px;    
+    /* padding: 5px 10px 10px; */
+    align-items: center;
+    border-radius: 20px;
+    justify-content: top;       
+}
+
+.landingCard h1 {
+    max-height: 500px;
+    height: 500px;
+    color: #5e5e5e;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 96px;
+    text-shadow: 10px 10px 10px black;
+}
+
+.landingBtnDiv{    
+    display: flex;      
+    text-decoration: none;
+    margin-top: 1px;    
+}
+
+.landingBtnDiv button {
+    background-color: #638e4c;
+    opacity: 0.6;
+    color: #5e5e5e;
+    padding: 13px;
+    border-radius: 20px;
+    
+    cursor: pointer;
+    border: 0;
+    text-shadow: 1px 1px 1px black;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.7s ease;
+}
+
+.landingBtnDiv button:hover {
+    color:black;
+    transform: translateY(5px);
+    box-shadow: 20px 20px 30px 0px rgba(0,0,0,0.3); 
+}
+

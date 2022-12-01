@@ -1,0 +1,185 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 1000px;
+    box-shadow: 10px 10px 15px 5px rgba(0,0,0,0.3); 
+    margin-top: 5%;
+    background-color: #ffffd0;
+    margin-bottom: 5%;
+}
+
+.goBackButton {    
+    width: 100px;
+    height: 50px;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    background-color: #6e9b55;
+    border: 0;
+    border-radius: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 40%;
+    max-width: 400px;
+}
+
+.left img{
+    margin: 5%;
+    width: 100%;
+    box-shadow: 3px 3px 20px 5px rgba(0,0,0,0.3);
+}
+
+.right {
+    flex: 60%;
+}
+
+.name {
+    margin-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-shadow: 2px 2px 6px grey;
+}
+
+.divScore{
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    margin-left: 9%;
+    margin-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.scores{
+    margin-top: 1.5%;
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+
+.divDish{
+    display: flex;
+    flex-direction: row;
+}
+
+.divDish h2 {
+    margin-left: 9%;
+    margin-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.divDish h4{
+    margin-top: 2%;
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+
+.divType {
+    display: flex;
+    flex-direction: row;        
+}
+
+.divh2 {
+    margin-left: 9%;
+    margin-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.divh2 h2{
+    margin-top: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.types {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+
+.types h3{
+    display: flex;
+    position: relative;    
+    margin-top: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+}
+
+
+.down {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.summary{ 
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.summary h3 {
+    display: flex;
+    /* margin-left: 2%; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.summary p {
+    text-align: left;
+}
+
+.divSteps {
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 3%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.divSteps h3 {
+    display: flex;
+    margin-left: 3%;
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.divSteps ul{
+    text-align: left;
+    font-size: 15px;
+    
+}

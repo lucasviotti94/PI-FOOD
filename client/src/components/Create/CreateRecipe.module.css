@@ -1,0 +1,117 @@
+.mainCreate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    margin-top: 4%;
+    width: 1200px;
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.3);      
+    border: 0;
+    background-color: #ffffd0;
+}
+
+.form h1 {
+    margin: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.formName{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+    text-align: left;
+}
+
+.name {
+    margin: 0.5%;
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    min-width: 110px;
+}
+
+.formHS{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+.HS{
+    margin: 0.5%;
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    min-width: 110px;
+}
+
+.formSumm{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+.summary{
+    margin: 0.5%;
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    min-width: 110px;
+    
+}
+
+.formSteps{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+.steps{
+    margin: 0.5%;
+    margin-left: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px; 
+    min-width: 110px;
+}
+
+.formDiets{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+
+.dietLabel{
+    /* display: flex; */
+    text-align: left;
+    margin-left: 4%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.divDiets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.warning {
+    margin: 1%;
+    min-width: 220px;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+.btnSubmit{
+    margin: 1%;
+}

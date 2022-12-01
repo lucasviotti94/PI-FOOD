@@ -1,0 +1,135 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.paginationUp {    
+    margin-top: 1%;
+}
+
+.paginationDown {    
+    margin-top: 4%;
+}
+.order-filter{    
+    display: flex;  
+    margin-top: 20px;     
+}
+
+.order-filter button{        
+    margin: 5px;
+    width: 200px;    
+    color: #638e4c;
+    background-color: #ffffd0;
+    border: 0;
+    border-radius: 3%;    
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 2px 4px 5px 2px rgba(0,0,0,0.3);   
+    transition: all 1.2s ease;   
+}
+
+.order-filter button:hover{
+    transform: translateY(2px);
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.3);
+    border:0;
+    border-radius: 3%;
+    background-color: #638e4c;
+    color: #e3e1e1;       
+}
+
+select{    
+    font-size: 20px;
+    padding: 0.5em 2.5em 0.5em 1em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #638e4c;
+    background-color: #ffffd0;   
+    border:0;
+    border-radius: 3%;   
+    box-shadow: 2px 4px 5px 2px rgba(0,0,0,0.3);   
+}
+
+.options:hover {
+    background-color: #e3e1e1;
+    font-size: 20px;
+}
+
+.dropdawn {      
+    margin: 0.5%;
+    position: relative;    
+}
+
+.custom-arrow{
+    position: absolute;
+    top:0;
+    right: 0;
+    display: block;
+    background-color: #ffffd0;
+    height: 100%;
+    width: 3.5rem;
+    pointer-events: none;
+}
+
+.custom-arrow::before,
+.custom-arrow::after {
+    content: '';
+    position: absolute;
+    left:28%;
+    transform: translate( 30%, 60%);
+}
+
+.custom-arrow::before{
+    border-left: 0.6em solid transparent;
+    border-right:  0.6em solid transparent;
+    border-bottom:  0.6em solid #9fc889;
+    top: 12%;  
+}
+
+.custom-arrow::after{
+    border-left:  0.6em solid transparent;
+    border-right:  0.6em solid transparent;
+    border-top:  0.6em solid #9fc889;
+    bottom: 33%;
+}
+
+
+.recipesDiv{     
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4%;    
+    padding: 1%;
+    margin-right: 7%;
+}
+
+.notFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6%;
+    margin-bottom: 6%;  
+    box-shadow: 2px 4px 5px 2px rgba(0,0,0,0.3);    
+}
+
+.textNotFound{
+    background-color: #ffffd0;
+    border-radius: 1%;
+    padding: 2%;
+    width: 570px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 1350px) {
+    .recipesDiv{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+ 
+@media (max-width: 900px) {
+    .recipesDiv{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

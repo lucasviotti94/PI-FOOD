@@ -1,0 +1,30 @@
+li {
+    list-style: none;
+}
+.footer{
+    width: 95%;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+}
+link {
+    text-decoration: none;
+}
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.social {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social ul li {
+    margin-right: 15px;
+}

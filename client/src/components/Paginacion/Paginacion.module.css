@@ -1,0 +1,42 @@
+.pagination ul{
+    margin-top: 20px;
+    display: flex;
+    background-color: #ffffd0;
+    padding: 4px;
+    border-radius: 10px;
+    height: 45px;
+    box-shadow: 2px 4px 5px 2px rgba(0,0,0,0.3);      
+}
+
+.eachLi{
+   list-style: none;
+   line-height: auto;   
+}
+
+.eachLi button{
+    background-color: #ffffd0;
+    color: #638e4c;
+    height: 40px;
+    width: 40px; 
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    padding: 5px;
+    transition: all 1.2s ease;     
+}
+
+.eachLi button:hover{
+    text-align: center;
+    padding-top: 6px;
+    transform: translateY(2px); 
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.3); 
+    font-size: 20px;    
+    background-color: #638e4c;
+    border-radius: 50%;
+    color: #f3f3f3;
+}
+
+
